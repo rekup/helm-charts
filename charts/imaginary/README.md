@@ -48,7 +48,6 @@ Simply add this Chart repository to Helm:
 | istio.cpu | string | `10m` | CPU request for istio sidecar |
 | istio.memory | string | `10Mi` | Memory request for istio sidecar |
 
-
 ## Source Code
 
 * <https://github.com/ricardo-ch/helm-charts/tree/main/charts/imaginary>
