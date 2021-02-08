@@ -44,6 +44,10 @@ Simply add this Chart repository to Helm:
 | serviceType | string | `"ClusterIP"` | Kubernetes service type |
 | tls.certificate | string | `""` | Base64 encoded TLS certificate file |
 | tls.privateKey | string | `""` | Base64 encoded private key file for TLS certificate. |
+| istio.inject | bool | false | Add annotations to inject istio-proxy sidecar |
+| istio.cpu | string | `10m` | CPU request for istio sidecar |
+| istio.memory | string | `10Mi` | Memory request for istio sidecar |
+
 
 ## Source Code
 
