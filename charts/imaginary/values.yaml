@@ -58,7 +58,9 @@ additionalLabels: {}
 additionalAnnotations: {}
   # sumologic.com/exclude: "true"
 istio:
-  on: false
+  inject: false
+  memory: 128Mi
+  cpu: 10m
 
 # -- estimated time to propagate the information the pod is not part of the service anymore
 gracefulShutdownDelaySeconds:
